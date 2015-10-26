@@ -33,7 +33,7 @@ _jquery2['default'].ajaxSetup({
 var movie = new _movie_collection2['default']();
 
 function renderMovie() {
-  var $ul = (0, _jquery2['default'])('<ul></ul>');
+  var $ul = (0, _jquery2['default'])('<ul>Awesome Movies You Should Watch</ul>');
   movie.each(function (film) {
     var data = film.toJSON();
     var $li = (0, _jquery2['default'])((0, _movie_maker2['default'])(data));

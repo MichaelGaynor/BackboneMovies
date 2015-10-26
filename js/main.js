@@ -15,7 +15,7 @@ import MovieMaker from './movie_maker';
 let movie = new MovieCollection();
 
 function renderMovie(){
-  let $ul = $('<ul></ul>');
+  let $ul = $('<ul>Awesome Movies You Should Watch</ul>');
   movie.each(function(film){
     let data = film.toJSON();
     let $li = $(MovieMaker(data));

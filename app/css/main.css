@@ -2019,6 +2019,14 @@
   content: ""; }
 
 body {
-  background: #e2ebf3; }
+  background-color: #444442; }
+
+ul {
+  color: magenta;
+  font-size: 48px; }
+  ul li {
+    color: #A1E402;
+    font-size: 16px;
+    margin-top: 5px; }
 
 /*# sourceMappingURL=main.css.map */
