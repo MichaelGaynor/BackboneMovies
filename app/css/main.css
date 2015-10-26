@@ -2024,9 +2024,14 @@ body {
 ul {
   color: magenta;
   font-size: 48px; }
+  ul div {
+    float: left;
+    width: 40%;
+    height: 500px; }
   ul li {
     color: #A1E402;
     font-size: 16px;
-    margin-top: 5px; }
+    margin-top: 10px;
+    list-style: none; }
 
 /*# sourceMappingURL=main.css.map */

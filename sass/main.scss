@@ -8,9 +8,16 @@ body {
 ul{
   color: magenta;
   font-size: 48px;
+  div{
+    float: left;
+    width: 40%;
+    height: 500px;
+  }
   li{
     color: #A1E402;
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: 10px;
+    list-style: none;
+    // float: right;
   }
 }

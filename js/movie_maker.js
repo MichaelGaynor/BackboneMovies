@@ -1,5 +1,6 @@
 function MovieMaker(data){
-  return `<li>${data.Title} is rated ${data.RatingOutOf10} out of 10</li>`;
+  return `<div><li>${data.Title} is rated ${data.RatingOutOf10} out of 10</li>
+  <img src=${data.Image}></div>`;
 }
 
 export default MovieMaker;

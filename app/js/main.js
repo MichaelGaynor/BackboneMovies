@@ -39,11 +39,9 @@ function renderMovie() {
     var $li = (0, _jquery2['default'])((0, _movie_maker2['default'])(data));
     $ul.append($li);
   });
-  (0, _jquery2['default'])('body').html($ul);
+  (0, _jquery2['default'])('div').html($ul);
 }
 movie.fetch().then(renderMovie);
-
-console.log(renderMovie);
 
 },{"./movie_collection":2,"./movie_maker":3,"jquery":6,"moment":7,"underscore":8}],2:[function(require,module,exports){
 'use strict';
@@ -81,7 +79,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 function MovieMaker(data) {
-  return "<li>" + data.Title + " is rated " + data.RatingOutOf10 + " out of 10</li>";
+  return "<div><li>" + data.Title + " is rated " + data.RatingOutOf10 + " out of 10</li>\n  <img src=" + data.Image + "></div>";
 }
 
 exports["default"] = MovieMaker;

@@ -21,8 +21,6 @@ function renderMovie(){
     let $li = $(MovieMaker(data));
     $ul.append($li);
   });
-  $('body').html($ul);
+  $('div').html($ul);
 }
 movie.fetch().then(renderMovie);
-
-console.log(renderMovie);
